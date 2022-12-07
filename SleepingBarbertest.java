@@ -75,6 +75,6 @@ System.out.println("""
 System.out.println("\nTotal customers: "+noOfCustomers+
         "\nTotal customers served: "+shop.getTotalHairCuts()
         +"\nTotal customers lost: "+shop.getCustomerLost());
-            } //input M barbers
+            } 
     }
 }
