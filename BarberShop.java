@@ -79,9 +79,7 @@ class BarberShop {
         	totalHairCuts.incrementAndGet();
             															
             if( !listCustomer.isEmpty()) {									
-            	System.out.println("Barber "+barberId+					
-            			" wakes up a customer in the "					
-            			+ "waiting room");		
+            	System.out.println("The Customer "+customer.getCustomerId()+ " get out from the barber shop");		
             }
             
             availableBarbers++;											
